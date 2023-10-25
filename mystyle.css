@@ -1,0 +1,85 @@
+a{
+    color: green;
+    font-family: fantasy;
+    padding-left: 10px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-image: url("CIT.png");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center;
+    background-color: blanchedalmond;
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 5px;
+    border: 10px solid red;
+    color: black;
+}
+h1{
+    font-family: fantasy;
+    font-size: 50px;
+}
+.b1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.s1{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    background-size: cover;
+    border: 10px solid red;
+    color: darkred;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 300px;
+    width: 1000px;
+}
+.s2{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    background-size: cover;
+    border: 10px solid red;
+    border-radius: 20px;
+    color: darkred;
+    padding: 20px;
+    height: 230px;
+    width: 1000px;
+    margin-top: 20px;
+}
+.s3{
+    font-family: monospace;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 10px solid red;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    height: 350px;
+    width: 500px;
+}
+footer{
+    text-align: center;
+    background-color: wheat;
+    margin-top: 30px;
+    font-family: serif;
+}
